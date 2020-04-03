@@ -41,8 +41,6 @@ public class Employee implements Comparable<Employee> {
     public String toString() {
         return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
     }
-    
-    
 
     @Override
     public int hashCode() {
