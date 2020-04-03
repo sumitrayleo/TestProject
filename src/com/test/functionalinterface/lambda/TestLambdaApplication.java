@@ -8,6 +8,9 @@ public class TestLambdaApplication {
         
         Sleepable animal = () -> System.out.println("[Lambda] Animals are sleeping .. ");
         animal.sleep();
+        
+         LambdaType sumOfTwoNumbers = (args1, args2) -> (args1 + args2); 
+         System.out.println("Sum = " + sumOfTwoNumbers.someMethod(7, 2));
     }
 
 }
